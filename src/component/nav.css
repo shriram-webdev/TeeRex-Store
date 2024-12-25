@@ -1,0 +1,31 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    /* border: 1px solid black; */
+    /* box-shadow: 20px 20px 20px gainsboro; */
+    border-radius: 10px;
+}
+
+.nav h1 .link{
+    margin: 0 30px;
+    color: #0056b3;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 20px;
+}
+
+.nav-links:hover{
+    cursor: pointer;
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+}

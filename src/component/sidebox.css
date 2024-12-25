@@ -1,0 +1,17 @@
+.side-box{
+    min-width: 20%;
+    max-width: 20%;
+    height: 100vh;
+}
+
+.color,.type,.price,.gender{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.1rem;
+}
+
+.border{
+    border: 1px solid;
+    padding: 5px;
+    margin: 2px;
+}
